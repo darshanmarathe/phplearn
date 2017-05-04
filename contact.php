@@ -14,12 +14,20 @@
    <a href="/about.php">About me</a>
     <hr>
 
+<form method="post" action="">
+    <input type="text" name="username">
+    <br>
+    <input type="password" name="passowrd">
+    <input type="submit" name="submit" value="Submit">
+</form>
     </body>
 </html>
 <?php
 
+if(isset($_POST['submit'])){
 
-
+    printf('%s' , '%s')
+}
 
 
 ?>
