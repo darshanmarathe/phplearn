@@ -29,9 +29,9 @@
 </html>
 <?php
 
-if(isset($_POST['submit'])){
-
-    printf('%s' , '%s')
+if(isset($_POST['submit']))
+{
+    printf('%s' , '%s');
 }
 
 
