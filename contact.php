@@ -31,7 +31,7 @@
 
 if(isset($_POST['submit']))
 {
-    printf('%s' , '%s');
+    printf('UserName %s  <br> passowrd  %s' , $_POST['username'] , $_POST['password']);
 }
 
 
