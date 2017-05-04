@@ -6,7 +6,8 @@
     </head>
     <body>
     
-    <h1><?php echo "Contact Alma factor app"; ?> </h1>
+    <h1><?php echo "Contact Alma factor app";
+?> </h1>
    
    
    <a href="/info.php">Php Info</a> |
@@ -16,12 +17,18 @@
 
 <form method="post" action="">
 
-<strong>version 0.3</strong>
+<strong>version 0.4</strong> 
+<br>
+Username :
     <input type="text" name="username">
     <br>
-
-    <input type="password" name="password">
+ Password : 
+    <input type="password" name="password"> <br>
+   Remember  Me :
+   <input type="checkbox" name="rememberme" value="">
+   <br>
     <input type="submit" name="submit" value="Submit">
+   
 </form>
 
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -33,8 +40,14 @@
 
 if(isset($_POST['submit']))
 {
-    printf('UserName %s  <br> passowrd  %s' , $_POST['username'] , $_POST['password']);
+	
+	printf('UserName %s  <br> passowrd  %s
+    <br> remember me %s' , $_POST['username'] , 
+    $_POST['password'],
+    $_POST['rememberme']);
+	
 }
+
 
 
 ?>
