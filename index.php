@@ -9,6 +9,11 @@
    <partial src="/partials/header.php"></partial>
    
     <h1><?php echo "Alma factor app"; ?> </h1>
+   
+   
+   <a href="/phpinfo.php">Php Info</a> |
+   <a href="/Contact.php">Contact me</a> |
+   <a href="/about.php">About me</a>
     <hr>
 
    
