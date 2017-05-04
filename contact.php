@@ -15,10 +15,12 @@
     <hr>
 
 <form method="post" action="">
+
+<strong>version 0.3</strong>
     <input type="text" name="username">
     <br>
 
-    <input type="password" name="passowrd">
+    <input type="password" name="password">
     <input type="submit" name="submit" value="Submit">
 </form>
 
