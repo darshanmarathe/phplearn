@@ -25,7 +25,7 @@ Username :
  Password : 
     <input type="password" name="password"> <br>
    Remember  Me :
-   <input type="checkbox" name="rememberme" value="">
+   <input type="checkbox" name="rememberme" value="on">
    <br>
     <input type="submit" name="submit" value="Submit">
    
@@ -44,7 +44,7 @@ if(isset($_POST['submit']))
 	printf('UserName %s  <br> passowrd  %s
     <br> remember me %s' , $_POST['username'] , 
     $_POST['password'],
-    $_POST['rememberme']);
+    $_POST['rememberme']);on
 	
 }
 
