@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Home Page</title>
-  <partial src="headers.php"></partial>
+  <partial src="/partials/headers.php"></partial>
     </head>
     <body>
    
@@ -11,8 +11,8 @@
     <h1><?php echo "Alma factor app"; ?> </h1>
    
    
-   <a href="/phpinfo.php">Php Info</a> |
-   <a href="/Contact.php">Contact me</a> |
+   <a href="/info.php">Php Info</a> |
+   <a href="/contact.php">Contact me</a> |
    <a href="/about.php">About me</a>
     <hr>
 

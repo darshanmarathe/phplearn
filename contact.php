@@ -9,8 +9,8 @@
     <h1><?php echo "Contact Alma factor app"; ?> </h1>
    
    
-   <a href="/phpinfo.php">Php Info</a> |
-   <a href="/Contact.php">Contact me</a> |
+   <a href="/info.php">Php Info</a> |
+   <a href="/contact.php">Contact me</a> |
    <a href="/about.php">About me</a>
     <hr>
 
