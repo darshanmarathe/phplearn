@@ -6,7 +6,7 @@
     </head>
     <body>
     
-    <h1><?php echo "Contact Alma factor app"; ?> </h1>
+    <h1><?php echo "About Alma factor app"; ?> </h1>
    
    
    <a href="/phpinfo.php">Php Info</a> |
